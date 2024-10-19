@@ -21,6 +21,11 @@ a,
   transition: all 300ms ease;
 }
 
+#contact,
+#tech,
+#about {
+  margin-top: 4rem;
+}
 /* navbar */
 
 nav,
