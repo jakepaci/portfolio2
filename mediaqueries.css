@@ -1,0 +1,149 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about_container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .desktop_nav {
+    display: flex;
+  }
+  #sidebar {
+    display: flex;
+  }
+  #profile,
+  .section_container {
+    display: block;
+  }
+  section,
+  .section_container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+
+  .section_pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  #profile,
+  #about,
+  #tech {
+    overflow: hidden;
+  }
+
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+    margin-top: 1.6rem;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about_container,
+  .contact_container,
+  .btn_container {
+    flex-wrap: wrap;
+  }
+  .contact_logo-container {
+    margin: 0;
+  }
+  p {
+    text-align: center;
+  }
+  .contact_logo-container,
+  p,
+  .nav_links li a {
+    font-size: 1rem;
+  }
+  .nav ul {
+    justify-content: center;
+  }
+  .nav_links {
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    text-align: center;
+    align-items: center;
+  }
+  .section_pic-container {
+    width: auto;
+    height: 46vh;
+    justify-content: center;
+  }
+  .section_text_p1 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text_container {
+    text-align: center;
+  }
+  .contact_logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 2rem;
+  }
+
+  .contact_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact_item img {
+    margin-right: 8px;
+    max-width: 20px;
+    height: auto;
+  }
+
+  .contact_item a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .prog_logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    gap: 0.5rem;
+  }
+
+  .prog_logo-container img {
+    max-width: 67px;
+    height: 60px;
+    margin: 10px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="assets/jj.jpeg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jake Edmund</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="desktop_nav">
+      <ul class="sidebar">
+          <li onclick="hideSidebar()">
+              <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                      <path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/>
+                  </svg>
+              </a>
+          </li>
+          <li onclick="hideSidebar()"><a href="#about">About</a></li>
+          <li onclick="hideSidebar()"><a href="#tech">Tech</a></li>
+          <li onclick="hideSidebar()"><a href="#contact">Contact</a></li>
+      </ul>
+      <ul>
+          <li class="logo">
+              <img src="svg/j.svg.svg" alt="J_logo" />
+          </li>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile"><a href="#tech">Tech</a></li>
+          <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+          <li class="menu-button" onclick="showSidebar()">
+              <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                      <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/>
+                  </svg>
+              </a>
+          </li>
+      </ul>
+  </nav>
+    <!-- PROFILE -->
+    <section id="profile" class="hidden">
+      <div class="section_pic-container">
+        <img src="assets/j2-hover.jpeg" alt="j profile" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, There</p>
+        <span class="im_text">I'm</span>
+        <h1 class="title" style="display: inline">Jake</h1>
+        <p class="section_text_p2">Student Developer</p>
+        <div class="btn_container">
+          <button class="btn btn_color" onclick="location.href='#about'">
+            About Me
+          </button>
+        </div>
+        <div id="social_container">
+          <img
+            src="assets/linked.png"
+            alt="linked in profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/jake-pacificador-8ab17b330/'"
+          />
+          <img
+            src="assets/gitt.png"
+            alt="github"
+            class="icon"
+            onclick="location.href='https://github.com/jakepaci'"
+          />
+          <img
+            src="assets/ig.png"
+            alt="instagram"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/jakepacii_/'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="hidden">
+      <h1 class="title">Who's That Cool Person?</h1>
+      <div class="section_container">
+        <div class="text_container">
+          <p>
+            <p style="font-weight: bold; font-size: 1.5rem;">Hi! Welcome to my nerdy side of the internet.</p><br />I'm
+            <strong>Jake Edmund,</strong> but you can call me
+            <strong>"J."</strong> I'm a 20-year-old
+            <strong>Software Engineering</strong> and
+            <strong>Computer Science </strong> student of
+            <strong style="color: rgb(207, 183, 42)">
+              Central Philippine University.</strong
+            >
+            I have a deep passion for technology and love exploring how things
+            work. Whether it’s coding, software development, or the latest tech
+            trends, I’m always eager to learn and discover more. I'm also into
+            music and sports; that's my way of escaping reality. It's either I'm
+            vibing with my playlists or shooting some hoops.
+            <strong
+              >Though I'm still honing my programming skills, I'm dedicated to
+              learning every day, gearing up to become your full-stack
+              developer.</strong
+            >
+          </p>
+        </div>
+        <div class="section_pic-container">
+          <img src="assets/j.png" alt="j profile" class="about_pic" />
+        </div>
+      </div>
+    </section>
+    <!-- TECH -->
+    <section id="tech" class="hidden">
+      <h1 class="title">Tech</h1>
+      <div class="tech_container">
+        <div class="pic_tech-container">
+          <img src="assets/laptop.jpeg" alt="laptop" />
+        </div>
+        <div class="text_container">
+          <p>
+            So, in my journey as a <strong>Software engineering</strong> and a
+            <strong>Computer science</strong>
+            student, I’ve gained experience in various programming languages,
+            including <strong>JavaScript</strong>, <strong>TypeScript</strong>,
+            <strong>Python</strong>, and <strong>Dart</strong>. Though I’m not at an expert level yet,
+            I’m passionate about learning and excited to tackle new challenges
+            that help me grow in the field. Additionally, I have experience with
+            <strong>React</strong>, <strong>HTML</strong> and
+            <strong>CSS</strong> for <strong>web development</strong>, allowing
+            me to create dynamic and visually appealing websites.
+          </p>
+          <div class="prog_logo-container">
+            <img  src="assets/js.png" alt="javascript" />
+            <img  src="assets/tss.png" alt="TypeScript" />
+            <img  src="assets/py.png" alt="Python" />
+            <img  src="assets/react.png" alt="react" />
+            <img  src="assets/dart.png" alt="dart" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS! -->
+    <!-- CONTACT -->
+    <section id="contact" class="hidden">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Let's Turn Your Ideas into Reality</h1>
+      <div class="contact_container">
+        <div class="section_pic-container">
+          <img src="assets/call.jpeg" alt="contact me" />
+        </div>
+        <div class="contact_logo-container">
+          <div class="contact_item">
+            <img src="assets/linked.png" alt="linkedin" class="icon" />
+            <a href="https://www.linkedin.com/in/jake-pacificador-8ab17b330/"
+              >LinkedIn</a
+            >
+          </div>
+          <div class="contact_item">
+            <img src="assets/gmail.png" alt="gmail" class="icon" />
+            <a href="mailto:jakepaci@gmail.com">jakepaci@gmail.com</a>
+          </div>
+          <div class="contact_item">
+            <img src="assets/ig.png" alt="instagram" class="icon" />
+            <a href="https://www.instagram.com/jakepacii_/" target="_blank"
+              >jakepacii_</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <nav>
+        <div class="nav_links-container">
+          <ul class="nav_links">
+            <!-- <li><a href="#home">Home</a></li> -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#tech">Tech</a></li>
+            <!-- <li><a href="#project">Projects</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Jake Edmund</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
