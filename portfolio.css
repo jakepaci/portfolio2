@@ -120,7 +120,7 @@ nav li:first-child {
 .menu-button {
   display: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .hideOnMobile {
     display: none;
   }
